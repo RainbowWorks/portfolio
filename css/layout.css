@@ -1,10 +1,25 @@
 :root {
-    --primary-color: #555879;
-    --secondary-color: #DED3C4;
-    --point-color: #98A1BC;
+    --primary-color: #FFB400;
+    /* 활기 있고 눈에 띄는 메인 컬러 */
+    --secondary-color: #FFF6D6;
+    /* 은은한 밝은 베이지-옐로우 배경색 */
+    --point-color: #3D5A80;
+    /* 안정감 주는 딥블루 (텍스트 강조 등) */
+    --point-fill-color: #4F7BAA;
+    /* 버튼 내부 채움, 아이콘 배경 등 */
+    --hover-color: #FFD364;
+    /* 밝고 따뜻한 옐로우 hover 효과 */
+    --accent-color: #B38000;
+    /* 짙은 머스타드 – 버튼이나 텍스트 강조 */
 
+    --background-color: #ffffff;
+    /* 메인 배경 */
+    --primary-font-color: #1C1C1C;
+    /* 제목 및 메인 텍스트 */
+    --body-color: #333;
+    /* 본문 텍스트 */
     --line-color: #dddddd;
-    --body-color: #444444;
+    /* 구분선 */
     --white-color: #ffffff;
 }
 
@@ -13,7 +28,7 @@ html {
 }
 
 body {
-    color: var(--body-color);
+    color: var(--primary-font-color);
     font-size: 1.6rem;
 }
 
@@ -35,7 +50,7 @@ body {
     align-items: center;
     padding: 0 2.4rem;
     height: 4rem;
-    border: 1px solid var(--color);
+    border: 1px solid var(--point-color);
     background: var(--color);
 }
 
