@@ -1,6 +1,6 @@
 $(function () {
 
-    const tl = gsap.timeline();
+    const tl = gsap.timeline({});
 
     tl
         .from({}, {})
@@ -57,5 +57,7 @@ $(function () {
         e.stopPropagation();
     })
 });
+
+
 
 

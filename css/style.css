@@ -56,12 +56,11 @@
     content: "";
     position: absolute;
     inset: 0 0 0 0;
-    background: url(../lib/icon/feather/menu.svg) no-repeat center center/24px;
-    filter: invert();
+    background: url(../images/menu.svg) no-repeat center center/24px;
 }
 
 #header .cover_btn.on::before {
-    background: url(../lib/icon/feather/x.svg) no-repeat center center/24px;
+    background: url(../images/menu.svg) no-repeat center center/24px;
 }
 
 #header .cover {
