@@ -11,7 +11,7 @@ $(function () {
 
 
     $('.wrapper').fullpage({
-        anchors: ['intro', 'portfolio01', 'portfolio02', 'portfolio03', 'training', 'profile'],
+        anchors: ['intro', 'portfolio01', 'portfolio02', 'portfolio03', 'portfolio04', 'portfolio05', 'training', 'profile'],
         fixedElements: '#header, #footer',
         easing: 'linear',
 

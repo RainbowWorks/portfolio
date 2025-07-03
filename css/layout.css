@@ -1,25 +1,24 @@
 :root {
-    --primary-color: #FFB400;
-    /* 활기 있고 눈에 띄는 메인 컬러 */
-    --secondary-color: #FFF6D6;
-    /* 은은한 밝은 베이지-옐로우 배경색 */
-    --point-color: #3D5A80;
-    /* 안정감 주는 딥블루 (텍스트 강조 등) */
-    --point-fill-color: #4F7BAA;
-    /* 버튼 내부 채움, 아이콘 배경 등 */
-    --hover-color: #FFD364;
-    /* 밝고 따뜻한 옐로우 hover 효과 */
+    --primary-color: #FFF2D6;
+    /* 메인색, 크림베이지 */
+    --secondary-color: #FAEBCD;
+    /* 톤 다운 베이지 (섹션, 백그라운드) */
+    --point-color: #5C6E91;
+    /* 톤다운블루 (강조 텍스트, 버튼 테두리) */
+    --point-fill-color: #3D5A80;
+    /* 딥블루 (버튼 채움, 강조템) */
+    --hover-color: #EED7A1;
+    /* 옅은 머스타드 (호버, 강조 백그라운드) */
     --accent-color: #B38000;
-    /* 짙은 머스타드 – 버튼이나 텍스트 강조 */
+    /* 짙은 머스타드 (아이콘, 강조 텍스트) */
 
     --background-color: #ffffff;
-    /* 메인 배경 */
+    /* 백그라운드 */
     --primary-font-color: #1C1C1C;
-    /* 제목 및 메인 텍스트 */
-    --body-color: #333;
-    /* 본문 텍스트 */
+    /* 제목, 텍스트 */
+    --body-color: #333333;
+    /* 본문텍스트 */
     --line-color: #dddddd;
-    /* 구분선 */
     --white-color: #ffffff;
 }
 
@@ -51,7 +50,7 @@ body {
     padding: 0 2.4rem;
     height: 4rem;
     border: 1px solid var(--point-color);
-    background: var(--color);
+    background: var(--point-fill-color);
 }
 
 .btn.btn_web {
@@ -59,6 +58,6 @@ body {
 }
 
 .btn.btn_photo {
-    color: var(--color);
+    color: var(--point-fill-color);
     background: transparent;
 }
