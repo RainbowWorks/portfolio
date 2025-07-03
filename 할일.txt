@@ -3,3 +3,6 @@
 parallax effect
 https://www.transparenttextures.com/
 https://heropatterns.com/
+
+https://cssgradient.io/ 
+그라데이션
