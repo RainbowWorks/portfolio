@@ -72,10 +72,6 @@
     box-shadow: 0 6px 1.2rem rgba(0, 0, 0, 0.15);
 }
 
-* {
-    outline: 1px solid tomato--;
-}
-
 /* #header .gnb>ul>li>a::before {
     content: "";
     position: absolute;
@@ -192,7 +188,7 @@
 }
 
 .portfolio .flx {
-    gap: 8rem;
+    gap: 5.6rem;
 }
 
 .portfolio .desc {
