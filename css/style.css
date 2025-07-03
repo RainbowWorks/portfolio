@@ -302,25 +302,19 @@
 } */
 
 
-.portfolio02 {
-    background: var(--primary-color);
-}
+.portfolio02 {}
 
 .portfolio02 .flx .mokup {
     order: -1;
 }
 
-.portfolio04 {
-    background: var(--primary-color);
-}
+.portfolio04 {}
 
 .portfolio04 .flx .mokup {
     order: -1;
 }
 
-.profile {
-    background: var(--primary-color);
-}
+.profile {}
 
 
 
