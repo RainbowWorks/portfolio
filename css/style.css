@@ -138,20 +138,8 @@
 
 
 .intro {
-    background-color: #FFF2D6;
-    /* background-image: url(../images/cubes.png); */
-    /*animation: wave 7s linear infinite; */
+    background: linear-gradient(to bottom, #FFF2D6 70%, #B38000 100%);
 }
-
-/* @keyframes wave {
-    0% {
-        background-position: 0 0;
-    }
-
-    100% {
-        background-position: 100px 50px;
-    }
-} */
 
 .intro .inner {
     position: relative;
@@ -302,6 +290,14 @@
 } */
 
 
+
+
+
+
+.portfolio01 {
+    background: linear-gradient(to top, #FFF2D6 80%, #B38000 100%);
+}
+
 .portfolio02 {}
 
 .portfolio02 .flx .mokup {
@@ -314,7 +310,6 @@
     order: -1;
 }
 
-.profile {}
 
 
 
@@ -322,9 +317,6 @@
 
 
 
-* {
-    outline: 1px solid tomato--;
-}
 
 .training .flx {
     gap: 12rem;
