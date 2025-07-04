@@ -1,13 +1,24 @@
 $(function () {
 
-    const tl = gsap.timeline({});
 
-    tl
-        .from({}, {})
-        .from('.intro h2', { y: 100, opacity: 0 })
-        .from('.intro p', { y: 100, opacity: 0 })
-        .from('.intro span', { width: 0, duration: 2 })
-        .from('.intro em', { opacity: 0 })
+
+    const tl = gsap.timeline({});
+    gsap.to('.intro h2', { rotation: 360, x: 0, duration: 2 })
+    gsap.to('.intro p', { rotation: -360, x: 0, duration: 2 })
+
+    //  tl
+    //  .to('.intro h2', { rotation: 360, x: 0, duration: 1 })
+    //   .to('.intro h2', { rotation: 0, x: 0, duration: 1 });
+
+
+
+
+    //    tl
+    //      .from({}, {})
+    //    .from('.intro h2', { y: 100, opacity: 0 })
+    //  .from('.intro p', { y: 100, opacity: 0 })
+    // .from('.intro span', { width: 0, duration: 2 })
+    // .from('.intro em', { opacity: 0 })
 
 
     $('.wrapper').fullpage({
@@ -59,10 +70,20 @@ $(function () {
 });
 
 $(function () {
-    var swiper = new Swiper(".mySwiper", {
+    const tr01 = new Swiper(".training .photo", {
         effect: "cards",
         grabCursor: true,
+
     });
+    const tr02 = new Swiper(".training .desc", {
+        grabCursor: true,
+
+    });
+
+    tr01.controller.control = tr02;
+    tr02.controller.control = tr01;
+
+
 })
 
 

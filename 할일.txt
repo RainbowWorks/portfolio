@@ -1,8 +1,22 @@
 파비콘 만들기
 
+
+training 페이지 만들기
+intro 꾸미기
+
+
 parallax effect
 https://www.transparenttextures.com/
 https://heropatterns.com/
 
 https://cssgradient.io/ 
 그라데이션
+
+
+
+
+ data-title="트레이닝2" data-desc="우마이미세"
+ <div class="tit">
+                    <strong></strong>
+                    <p></p>
+                </div>

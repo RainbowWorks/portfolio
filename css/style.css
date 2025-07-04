@@ -138,7 +138,7 @@
 
 
 .intro {
-    background: linear-gradient(to bottom, #FFF2D6 70%, #B38000 100%);
+    background: linear-gradient(to bottom, #FFF2D6 68%, #B38000 100%);
 }
 
 .intro .inner {
@@ -150,6 +150,7 @@
     font-size: 8rem;
     font-weight: 800;
     line-height: 1.2;
+
 }
 
 .intro span {
@@ -322,12 +323,16 @@
     gap: 12rem;
 }
 
-.swiper {
+.training .flx>* {
+    min-width: 0;
+}
+
+.training .photo {
     width: 240px;
     height: 320px;
 }
 
-.swiper-slide {
+.training .photo .itm {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -337,52 +342,78 @@
     color: #fff;
 }
 
-.swiper-slide:nth-child(1n) {
+.training .photo .itm01 {
     font-size: 0;
     background: url(../images/training01.png) no-repeat center center/cover;
 }
 
-.swiper-slide:nth-child(2n) {
+.training .photo .itm02 {
     font-size: 0;
     background: url(../images/training02.png) no-repeat center center/cover;
 }
 
-.swiper-slide:nth-child(3n) {
+.training .photo .itm03 {
     font-size: 0;
     background: url(../images/training03.png) no-repeat center center/cover;
 }
 
-.swiper-slide:nth-child(4n) {
-    background-color: rgb(211, 122, 7);
+
+.training .title h2 {
+    margin-bottom: 1.6rem;
+    font-size: 4rem;
+    font-weight: 100;
 }
 
-.swiper-slide:nth-child(5n) {
-    background-color: rgb(118, 163, 12);
-}
-
-.swiper-slide:nth-child(6n) {
-    background-color: rgb(180, 10, 47);
-}
-
-.swiper-slide:nth-child(7n) {
-    background-color: rgb(35, 99, 19);
-}
-
-.swiper-slide:nth-child(8n) {
-    background-color: rgb(0, 68, 255);
-}
-
-.swiper-slide:nth-child(9n) {
-    background-color: rgb(218, 12, 218);
-}
-
-.swiper-slide:nth-child(10n) {
-    background-color: rgb(54, 94, 77);
+.training .title strong {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: var(--accent-color);
 }
 
 
 
 
+
+.training .tt01 .title>p {
+    margin-bottom: 4rem;
+}
+
+.training .tt01 ul>li {
+    display: grid;
+    grid-template-columns: 8rem 1fr;
+    line-height: 4rem;
+    border-bottom: 1px solid var(--line-color);
+}
+
+.training .tt01 ul>li em {
+    font-weight: 700;
+}
+
+.training .tt01 ul>li p {
+    line-height: 4rem;
+}
+
+.training .tt01 ul>li .color {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.training .tt01 ul>li .color span {
+    font-size: 0;
+    width: 16px;
+    height: 16px;
+
+    background: #333;
+    border-radius: 50%;
+}
+
+.training .tt01 .lnk {
+    display: flex;
+    gap: 8px;
+    margin-top: 4rem;
+}
 
 
 
