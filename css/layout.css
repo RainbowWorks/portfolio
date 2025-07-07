@@ -27,7 +27,7 @@ html {
 }
 
 body {
-    background: linear-gradient(45deg, var(--primary-color), #fff);
+    background: var(--primary-color);
     color: var(--primary-font-color);
     font-size: 1.6rem;
 }

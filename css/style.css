@@ -51,11 +51,7 @@
     transition: 0.3s;
 
     width: auto;
-    min-width: 12rem;
-}
-
-#header .gnb>ul>li>a em {
-    font-size: 8px;
+    min-width: 10rem;
 }
 
 #header .gnb>ul>li>a:hover {
@@ -138,7 +134,7 @@
 
 
 .intro {
-    background: linear-gradient(to bottom, #FFF2D6 68%, #B38000 100%);
+    /* background: linear-gradient(to bottom, #FFF2D6 68%, #B38000 100%); */
 }
 
 .intro .inner {
@@ -153,15 +149,15 @@
 
 }
 
-.intro span {
+/* .intro span {
     display: block;
     margin-top: 4rem;
     width: 100%;
     height: 1px;
     background: var(--accent-color);
-}
+} */
 
-.intro em {
+/* .intro em {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -170,7 +166,7 @@
     height: 8rem;
     background: var(--accent-color);
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-}
+} */
 
 .portfolio {
     overflow: hidden;
@@ -296,7 +292,7 @@
 
 
 .portfolio01 {
-    background: linear-gradient(to top, #FFF2D6 80%, #B38000 100%);
+    /* background: linear-gradient(to top, #FFF2D6 80%, #B38000 100%); */
 }
 
 .portfolio02 {}
@@ -329,7 +325,7 @@
 
 .training .photo {
     width: 240px;
-    height: 320px;
+    height: 363px;
 }
 
 .training .photo .itm {
