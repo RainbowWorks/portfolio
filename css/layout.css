@@ -27,7 +27,7 @@ html {
 }
 
 body {
-    background: var(--primary-color);
+    background-image: url(../images/body03.jpg);
     color: var(--primary-font-color);
     font-size: 1.6rem;
 }

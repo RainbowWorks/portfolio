@@ -1,24 +1,33 @@
+
 $(function () {
 
-
-
     const tl = gsap.timeline({});
-    gsap.to('.intro h2', { rotation: 360, x: 0, duration: 2 })
-    gsap.to('.intro p', { rotation: -360, x: 0, duration: 2 })
-
-    //  tl
-    //  .to('.intro h2', { rotation: 360, x: 0, duration: 1 })
-    //   .to('.intro h2', { rotation: 0, x: 0, duration: 1 });
 
 
+    new Typed('.typed-h2', {
+        strings: ['Neat.<br>Clear.<br>Purposeful.'],
+        typeSpeed: 250,
+        backSpeed: 100,
+        backDelay: 1000,
+        fadeOut: true,
+        cursorChar: '',
+        loop: false,
+        backSpeed: 0,
+    });
 
-
-    //    tl
-    //      .from({}, {})
-    //    .from('.intro h2', { y: 100, opacity: 0 })
-    //  .from('.intro p', { y: 100, opacity: 0 })
-    // .from('.intro span', { width: 0, duration: 2 })
-    // .from('.intro em', { opacity: 0 })
+    // p용 타이핑
+    new Typed('.typed-p', {
+        strings: [
+            '깔끔하게, 정돈된 화면 위에.<br>명확하게, 흐름을 잃지 않게.<br>목적 있게, 사용자 중심으로.'
+        ],
+        typeSpeed: 100,
+        backSpeed: 100,
+        backDelay: 1000,
+        fadeOut: true,
+        cursorChar: '',
+        loop: false,
+        backSpeed: 0,
+    });
 
 
     $('.wrapper').fullpage({

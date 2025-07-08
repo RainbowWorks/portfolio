@@ -135,6 +135,7 @@
 
 .intro {
     /* background: linear-gradient(to bottom, #FFF2D6 68%, #B38000 100%); */
+
 }
 
 .intro .inner {
@@ -222,7 +223,7 @@
     display: grid;
     grid-template-columns: 8rem 1fr;
     line-height: 4rem;
-    border-bottom: 1px solid var(--line-color);
+    border-bottom: 1px solid var(--hover-color);
 }
 
 .portfolio .desc ul>li em {
@@ -353,6 +354,11 @@
     background: url(../images/training03.png) no-repeat center center/cover;
 }
 
+.training .photo .itm04 {
+    font-size: 0;
+    background: url(../images/training04.png) no-repeat center center/cover;
+}
+
 
 .training .title h2 {
     margin-bottom: 1.6rem;
@@ -371,32 +377,32 @@
 
 
 
-.training .tt01 .title>p {
+.training .right .title>p {
     margin-bottom: 4rem;
 }
 
-.training .tt01 ul>li {
+.training .right ul>li {
     display: grid;
     grid-template-columns: 8rem 1fr;
     line-height: 4rem;
-    border-bottom: 1px solid var(--line-color);
+    border-bottom: 1px solid var(--hover-color);
 }
 
-.training .tt01 ul>li em {
+.training .right ul>li em {
     font-weight: 700;
 }
 
-.training .tt01 ul>li p {
+.training .right ul>li p {
     line-height: 4rem;
 }
 
-.training .tt01 ul>li .color {
+.training .right ul>li .color {
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
-.training .tt01 ul>li .color span {
+.training .right ul>li .color span {
     font-size: 0;
     width: 16px;
     height: 16px;
@@ -405,7 +411,7 @@
     border-radius: 50%;
 }
 
-.training .tt01 .lnk {
+.training .right .lnk {
     display: flex;
     gap: 8px;
     margin-top: 4rem;
